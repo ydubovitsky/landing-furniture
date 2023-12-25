@@ -1,0 +1,29 @@
+.container {
+}
+
+.title {
+  font-weight: bold;
+}
+
+.type {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.price input {
+  padding: 10px;
+  border-color: black;
+  border-radius: 10px;
+}
